@@ -41,4 +41,5 @@ if __name__ == "__main__":
         order = int(input("Введіть рівень рекурсії (ціле число): "))
     except:
         order = DEFAULT_ORDER
+        print("Обраний дефолтний рівень рекурсії = 3")
     draw_koch_snowflake(order)
